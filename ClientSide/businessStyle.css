@@ -59,7 +59,11 @@ iframe {
 }
 
 .weatherImage {
-    max-height: 100px;
+    max-height: 80px;
+}
+
+.bigWeatherImage {
+    max-height: 120px;
 }
 
 .panel {
