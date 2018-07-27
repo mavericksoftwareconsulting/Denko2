@@ -19,6 +19,9 @@
     <script src="./socket.io/socket.io.js"></script>
     <script>
         var socket = io.connect(window.location.origin);
+
+        
+
     </script>
 </head>
 
@@ -74,7 +77,10 @@
         <section class='inner' id="musicList" ng-controller="musicController">
             <h1 style="text-align:center">Music</h1>
             <div id="frameContainer">
-                <iframe ng-src="{{trustMusicSrc(musicSrc)}}"></iframe>
+                <iframe id="musicFrame" ng-src="{{trustMusicSrc(musicSrc)}}"></iframe>
+            </div>
+            <div id="printCamContainer">
+                <iframe id=cameraFrame src="http://192.168.220.129/webcam/?action=stream&1530026719730"></iframe>
             </div>
         </section>
     </section>

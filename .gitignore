@@ -5,3 +5,5 @@ ServerSide/credentials.json
 ServerSide/credentials.json
 ServerSide/gorilla.json
 ServerSide/feeds.json
+node_modules
+
